@@ -1,0 +1,14 @@
+---
+ua:
+  xml:
+    opensearch:
+      short_name: "%{community} Пошук"
+      description: Знайти повідомлення від %{community}.
+    user:
+      image: "%{user} зображення профілю"
+  json:
+    author: Активний автор %{community}
+  mailer:
+    adjust: Налаштуйте параметри електронної пошти
+    adjust_only_html: Чи не хочете отримувати подібні листи? Налаштуйте параметри електронної пошти в %{path}
+    unsubscribe: Відписатися від розсилки

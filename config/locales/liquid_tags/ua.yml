@@ -1,0 +1,113 @@
+---
+ua:
+  liquid_tags:
+    asciinema_tag:
+      invalid_asciinema_id: 'Невірний ідентифікатор Asciinema: %{id}'
+    blogcast_tag:
+      invalid_blogcast_id: Невірний ідентифікатор блогів
+    codepen_tag:
+      invalid_codepen_url: Невірний URL CodePen
+      invalid_options: Неприпустимі параметри
+    codesandbox_tag:
+      invalid_id: 'CodeSandbox Error: Неправильний ідентифікатор'
+    comment_tag:
+      invalid_comment: Невірний ідентифікатор коментаря або URL
+    dotnet_fiddle_tag:
+      invalid_dotnetfiddle_url: Невірна URL-адреса DotnetFiddle
+    gist_tag:
+      invalid_filename: Неправильне ім'я файлу
+      invalid_format: 'Неправильне посилання на Gist: %{link} Посилання повинні мати цей формат: https://gist.github.com/username/gist_id'
+      invalid_gist_link: 'Неправильне посилання на Gist: Ви повинні надати посилання на Gist'
+    git_pitch_tag:
+      invalid_gitpitch_url: Невірна URL-адреса GitPitch
+    github_tag:
+      github_issue_tag:
+        comment_for: Коментар для
+        commented_on: прокоментував
+        invalid_github_issue_pull: Некоректне посилання на проблему, запит або коментар на GitHub
+        posted_on: розміщений на
+      github_readme_tag:
+        invalid_options: 'GitHub tag: неприпустимі параметри: %{invalid} - опції, що підтримуються: %{valid}'
+        invalid_github_repository: Невірний шлях або URL-репозиторія GitHub
+    glitch_tag:
+      invalid_glitch_id: Неправильний Glitch ID
+      invalid_options: Неприпустимі параметри
+    instagram_tag:
+      invalid_instagram_id: Неправильний ідентифікатор Instagram
+    js_fiddle_tag:
+      invalid_jsfiddle_url: Невірна URL-адреса JSFiddle
+      invalid_options: Неприпустимі параметри
+    jsitor_tag:
+      invalid_jsitor_link: Неправильне посилання на JSitor. Будь ласка, прочитайте посібник з редактора для отримання додаткової інформації
+    kotlin_tag:
+      invalid_kotlin_playground: Невірна URL-адреса майданчика Kotlin Playground
+    link_tag:
+      not_exist: "Стаття, яку ви шукаєте, не існує: %{slug}"
+      not_exist_link: "Стаття, яку ви шукаєте, не існує: {% link %{slug} %}"
+    liquid_tag_base:
+      invalid_context: Неправильний контекст. Цей тег можна використовувати лише у %{valid}.
+      no_source_found: Джерело не знайдено
+    listing_tag:
+      invalid_url_or_slug: Невірна URL-адреса або slug. Лістинг не знайдено.
+    loom_tag:
+      invalid_loom_url: Невірний Loom URL.
+    medium_tag:
+      invalid_link_url: Невірна URL-адреса або URL-адреса посилання не існує
+    next_tech_tag:
+      invalid_url: Невірна URL-адреса ресурсу Next Tech
+    null_tag:
+      liquid_tag_is_disabled: Тег Liquid#%{tag_name} вимкнено
+    organization_tag:
+      invalid_slug: Неприпустимий символ організації
+      invalid_url: Невірна URL-адреса організації
+    parler_tag:
+      invalid_parler_url: Невірна URL-адреса Parler
+    podcast_tag:
+      invalid_podcast_link: Неправильне посилання на подкаст
+    reddit_tag:
+      invalid_reddit_link: 'Неправильне посилання на Reddit: %{url}'
+    replit_tag:
+      invalid_replit_id: Невірний URL Replit або @user/slug
+    runkit_tag:
+      runkit_tag_is_invalid: Мітка Runkit недійсна
+    slideshare_tag:
+      invalid_slideshare_key: Недійсний ключ Slideshare
+    soundcloud_tag:
+      invalid_soundcloud_url: "Невірна URL Soundcloud - спробуйте видалити всі параметри URL: '?something=value'"
+    speakerdeck_tag:
+      invalid_speakerdeck_id: Невірний ідентифікатор спікердека
+    spotify_tag:
+      invalid_spotify_uri: Невірний URI або URL Spotify.
+    stackblitz_tag:
+      invalid_options: Неприпустимі параметри
+      invalid_stackblitz_id: Неправильний ідентифікатор Stackblitz
+    stackery_tag:
+      missing_argument: Stackery - Відсутність аргументів власника та/або імені сховища
+    stackexchange_tag:
+      post_not_found: "Не вдалося знайти пост з таким ID: {% %{tag} %{input} %}"
+      invalid_id: 'Невірний Stack Exchange ID: {% %{tag} %{input} %}'
+      invalid_site: 'Невірний сайт Stack Exchange: {% %{tag} %{input} %}'
+    tag_tag:
+      invalid_tag_name: неприпустиме ім'я тега
+    tweet_tag:
+      invalid_twitter_id: Невірний ідентифікатор Twitter або URL
+    twitch_tag:
+      invalid_twitch_id: Невірний ідентифікатор Twitch ID, Slug або URL
+    twitter_timeline_tag:
+      invalid_url: Невірна URL-адреса тимчасової шкали Twitter
+    unified_embed:
+      tag:
+        invalid_url: URL-адреса вбудовування недійсна
+        not_found: Надану URL-адресу не знайдено; будь ласка, перевірте та спробуйте ще раз
+        listings_disabled: Списки вимкнено на цьому Forem; не можна вставити URL-адресу списку
+        too_many_redirects: Вбудоване посилання переспрямовується занадто багато разів.
+    user_subscription_tag:
+      submit: Надіслати
+      submitting: Відсилання...
+      subscribed: Ви вже підписані.
+    wikipedia_tag:
+      section_not_found: Неможливо знайти розділ статті Вікіпедії - %{input}
+      article_not_found: "Не вдалося знайти статтю Вікіпедії - %{input}: %{response_detail}"
+      invalid_wikipedia_url: Невірна URL-адреса Вікіпедії
+    youtube_tag:
+      invalid_youtube_id: Неправильний ідентифікатор YouTube або URL

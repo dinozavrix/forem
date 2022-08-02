@@ -1,0 +1,132 @@
+---
+ua:
+  models:
+    api_secret:
+      api_limit_reached: Досягнуто ліміт API secret, що дорівнює 10 для кожного користувача
+    application_record:
+      uninferrable: Не вдалося вивести декоратор для %{class}.
+    article:
+      a_post_by: Пост від %{user_name}
+      video_unpermitted: не може бути додана учасником без дозволу
+      video_processing: не може бути встановлено в true, якщо відео все ще обробляється
+      cannot_search_tags_for: 'Неможливо здійснити пошук за тегами для: %{tag}'
+      cannot_search_tags_for_tags: 'Неможливо знайти теги для: %{tags}'
+      unique_coauthor: Ідентифікатори співавторів мають бути унікальними
+      too_many_tags: перевищувати максимальну кількість у 4 теги
+      is_too_long: надто довгий.
+      invalid_date: повинні бути введені у форматі ДД/ММ/РРРР з поточною або минулою датою
+      series_unpermitted: має бути таким, щоб у вас був дозвіл на публікацію в
+      invalid_coauthor: повинні бути дійсними ідентифікаторами користувачів
+      same_author: не повинен бути тим самим користувачем, що й автор
+      must_not_have_spaces: не повинно бути пробілів
+      published: Опубліковано
+      unique_url: вже зайнято. За більш детальною інформацією звертайтесь електронною поштою %{email}.
+      mention_too_many:
+        one: Ви не можете згадувати більше %{count} користувача в одному повідомленні!
+        other: Ви не можете згадувати більше %{count} користувачів в одному повідомленні!
+    broadcast:
+      single_active: У вас може бути тільки одна активна трансляція оголошення
+    comment:
+      deleted: '[видалено]'
+      has_been_deleted: '%{type} було видалено.'
+      hidden: '[приховано автором посту]'
+      is_not_valid: недійсний.
+      locked: обговорення заблоковане у цьому пості
+      type:
+        Article: Стаття
+        item: елемент
+        PodcastEpisode: Епізод подкасту
+      suspended_too_many: Користувач видалений за надто велику кількість спамних взаємодій.
+      mention_too_many:
+        one: У коментарі не можна згадувати більше %{count} користувача!
+        other: У коментарі не можна згадувати більше %{count} користувачів!
+    feedback_message:
+      reported: '(Ви) раніше повідомляли про це URL.'
+    github_issue:
+      issue_comment_not_found: Коментар до проблеми %{issue_id} не знайдено
+      issue_not_found: Проблему %{issue_id} не знайдено
+    html_variant:
+      no_edits: не можуть бути змінені після публікації та затвердження
+    identity:
+      no_email_msg: Електронну пошту не знайдено. Будь ласка, перепідключіть обліковий запис %{provider}, щоб уникнути помилок.
+    listing:
+      too_many_tags: перевищувати максимальну кількість у 8 тегів
+      too_many_linebreaks: має надто багато обривів ліній. Дозволено не більше 12.
+      image_not_allowed: не дозволяється вмикати зображення.
+      liquid_not_allowed: не дозволяється включати рідкі теги.
+    mention:
+      is_not_valid: недійсна.
+    organization:
+      integer_only: Тільки ціле число. Знак не допускається.
+      reserved_word: '%<value> є зарезервованим словом. Зверніться до адміністраторів сайту за допомогою реєстрації вашої організації.'
+    page:
+      body_must_exist: має існувати, якщо body_html чи body_json не існує.
+    podcast:
+      slug_is_reserved: Коротрке ім'я зарезервоване
+    podcast_episode_appearance:
+      provided_role_is_not_valid: ця роль не дійсна
+    poll_skip:
+      cannot_vote_more_than_once: не можна голосувати більше одного разу в одному опитуванні
+    poll_vote:
+      cannot_vote_more_than_once: не можна голосувати більше одного разу в одному опитуванні
+    profile_pin:
+      only_five: не може мати більше п'яти повідомлень із загальною кількістю прикріплених постів
+      pin_unpermitted: повинні мати відповідні дозволи на виведення
+    rating_vote:
+      not_permitted: не має права робити це.
+    reaction:
+      is_not_valid: недійсний.
+    response_template:
+      user_nil_only: не може мати пов'язаний із ним ідентифікатор користувача.
+      comment_markdown: Шаблони коментарів повинні використовувати Markdown як тип вмісту.
+      email_text: Шаблони електронної пошти повинні використовувати звичайний текст або HTML як тип вмісту.
+      limit_reached: Шаблони електронної пошти повинні використовувати звичайний текст або HTML як тип вмісту.
+    settings:
+      campaign:
+        share_your_project: Поділіться своїм проектом
+      community:
+        message: не може містити символ "<" або ">".
+        new_forem: Новий Forem
+        user: user
+      general:
+        community_sponsors: Спонсори спільноти
+        the_community_mascot: Талісман спільноти
+      user_experience:
+        message: 'має складатися з 3 або 6 символів (починаючи з #)'
+    sponsorship:
+      invalid_type: не спонсорований тип
+      already_sponsored: Мітка вже спонсорована
+      only_one_level: У вас може бути лише один спонсор %{levels}
+      level:
+        gold: золотий
+        silver: срібний
+        bronze: бронзовий
+    tag:
+      alias_for: alias_for має посилатися на існуючий тег
+    tag_adjustment:
+      too_many_tags: Не більше 4 тегів на статтю.
+      unpermitted: не має привілеїв для налаштування цих тегів
+      not_live: Вибрана для видалення не є поточною живою позначкою.
+      unique: не може бути вже налаштованим тегом
+    tweet:
+      tweet_not_found: Твіт не знайдено
+      authentication_error: Помилка аутентифікації; будь ласка, зв'яжіться з адміністратором Forem щодо можливих відсутніх ключів Twitter
+    user:
+      could_not_send: підтвердження не може бути надіслано. %{e_message}
+      password_not_matched: не відповідає підтвердженню пароля
+      has_been_banished: було забанено.
+      is_taken: '%{username} зайнято.'
+      user_could_not_be_saved: Користувач не може бути збережений. %{e_message}
+      username_is_reserved: ім'я користувача зарезервовано
+    user_block:
+      cant_be_the_same: не може бути таким же, як blocked_id
+    user_subscription:
+      non_apple: Неможливо підписатися за допомогою особистого ретранслятора Apple. Будь ласка, оновіть електронну пошту.
+      source_not_found: Джерело не знайдено. Будь ласка, переконайтеся, що ваш %{source} активний!
+      not_enabled: Підписки користувачів не включені до джерела.
+    users:
+      deleted_user:
+        name: '[Видалений користувач]'
+      setting:
+        invalid_hex: не є допустимим hex кольором
+        invalid_rss: не є дійсним RSS/Atom-каналом

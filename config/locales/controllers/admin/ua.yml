@@ -1,0 +1,157 @@
+---
+ua:
+  admin:
+    articles_controller:
+      saved: Стаття збережена!
+      pinned: Стаття закріплена!
+      unpinned: Стаття відкріплена!
+    badge_achievements_controller:
+      deleted: Досягнення значка видалено!
+      rewarded: Значки надано. Незабаром завдання завершиться
+      congrats: Вітаю!
+      award: Будь ласка, виберіть значок для нагородження
+      wrong: Щось пішло не так.
+    badges_controller:
+      created: Значок створено!
+      updated: Значок оновлено!
+    broadcasts_controller:
+      created: Трансляцію створено!
+      deleted: Трансляцію видалено!
+      updated: Трансляцію оновлено!
+      wrong: Сталася помилка з видаленням трансляції.
+    consumer_apps_controller:
+      created: '%{app} створено!'
+      deleted: '%{app} видалено!'
+      updated: '%{app} оновлено!'
+      wrong: Сталася помилка з видаленням %{app}.
+    display_ads_controller:
+      created: Медійне оголошення створено!
+      deleted: Медійне оголошення видалено!
+      updated: Медійне оголошення оновлено!
+      wrong: Сталася помилка з видаленням медійного оголошення.
+    gdpr_delete_requests_controller:
+      deleted: Успішно позначено як видалене
+    extensions_controller:
+      update_success: Розширення оновлено.
+    html_variants_controller:
+      fork: '%{name} FORK-%{rand}'
+      created: HTML Variant створено!
+      deleted: HTML Variant видалено!
+      updated: HTML Variant оновлено!
+      wrong: Щось пішло не так із видаленням HTML Variant.
+    invitations_controller:
+      duplicate: 'Запрошення не надіслано. Вже є зареєстрований користувач з електронною адресою: %{email}'
+      create_success: Запрошення надіслано на електронну адресу користувача.
+      destroy_success: Запрошення для %{email} скасовано.
+      resend_success: Запрошення переслано на %{email}.
+    listing_categories_controller:
+      created: Категорію списку створено!
+      updated: Категорію списку оновлено!
+      deleted: Категорію списку видалено!
+    listings_controller:
+      updated: Список успішно оновлено
+      destroyed: "'%{title}' успішно знищено"
+      no_credit: Недостатньо доступних кредитів
+    mods_controller:
+      trusted: '%{username} тепер Довірений користувач!'
+    navigation_links_controller:
+      deleted: Посилання навігації %{link} видалено
+      created: 'Успішно створено навігаційне посилання: %{link}'
+      updated: 'Успішно оновлено навігаційне посилання: %{link}'
+    organization_memberships_controller:
+      not_exist: 'Організація #%{org_id} не існує.'
+      wrong: Сталася помилка з видаленням користувача з %{org}
+      added: Користувача було успішно додано до %{org}
+      removed: Користувача було успішно видалено з %{org}
+      updated: Користувача було успішно оновлено до %{type}
+    organizations_controller:
+      credit_updated: Кредити успішно оновлені
+    pages_controller:
+      updated: Сторінку успішно оновлено.
+      created: Сторінку успішно створено.
+      deleted: Сторінку успішно видалено.
+      code_of_conduct:
+        title: Кодекс поведінки
+        description: Сторінка, яка описує, як поводитися на цій платформі
+      privacy_policy:
+        title: Політика конфіденційності
+        description: Сторінка, яка описує політику конфіденційності
+      terms_of_use:
+        title: Умови використання
+        description: Сторінка, яка описує умови використання програми
+    podcasts_controller:
+      new_owner_added: Додано нового власника!
+      no_such_user: Немає такого користувача
+      scheduled: "Вибір серій подкасту заплановано (%{title}, #%{id})"
+      updated: Подкаст оновлено
+    profile_field_groups_controller:
+      deleted: Група %{group} видалена
+      updated: Група %{group} оновлено
+      created: 'Групу успішно створено: %{group}'
+    profile_fields_controller:
+      created: Поле профілю %{field} створено
+      deleted: Поле профілю %{field} видалено
+      updated: Поле профілю %{field} оновлено
+    response_templates_controller:
+      saved: 'Шаблон відповіді: "%{title}" успішно збережено.'
+      updated: Шаблон відповіді "%{title}" оновлено.
+      deleted: Шаблон відповіді "%{title}" було видалено.
+    secrets_controller:
+      not_in_vault: Не в сховищі
+      updated: секретний %{key} успішно оновлено у сховищі.
+      value: '%{first8}******'
+    settings_controller:
+      confirmation: Моє ім'я користувача @%{username}, і ця дія на 100% безпечна та доречна.
+    spaces_controller:
+      update_success: Простір оновлено.
+    sponsorships_controller:
+      created: Спонсорство створено!
+      not_destroyed: Спонсорство не було знищено
+      updated: Спонсорство успішно оновлено
+      destroyed: Спонсорство було успішно знищено
+    tags:
+      moderators_controller:
+        not_found: 'Ідентифікатор користувача #%{user_id} не знайдено'
+        not_found_or: 'Ідентифікатор користувача #%{user_id} не знайдено, або його обліковий запис містить помилки: %{errors}'
+        removed: '@%{username} – ідентифікатор #%{user_id} видалено як модератор тегу.'
+        added: '%{username} додано як модератор тегу!'
+    tags_controller:
+      created: '%{tag_name} створено!'
+      updated: '%{tag_name} успішно оновлено!'
+      update_fail: 'Не вдалося оновити тег: %{errors}'
+    tools_controller:
+      article_busted: 'Стаття #%{article} була успішно вилучена'
+      user_busted: 'Користувач #%{user} був успішно вилучений'
+      link_busted: '%{link} успішно вилучено'
+    users_controller:
+      exported: Дані експортуються до %{receiver}. Робота буде завершена миттєво.
+      email_fail: Не вдалося надіслати електронний лист!
+      email_sent: Електронний лист надіслано!
+      verify_sent: Електронний лист із підтвердженням надіслано!
+      full_delete_html: '@%{user} (електронна пошта: %{email}, user_id: %{id}) було повністю видалено. Якщо це видалення згідно з GDPR, видаліть їх із Mailchimp і Google Analytics та підтвердьте на %{the_page}. '
+      no_email: немає електронної пошти
+      parameter_missing: Обов'язкові і тема, і тіло!
+      role_removed: 'Роль: %{role} успішно видалено з користувача!'
+      identity_removed: ідентифікатор %{provider} успішно видалено та створено резервну копію.
+      the_page: сторінка
+      banished: Цього користувача видаляють у фоновому режимі. Робота буде завершена найближчим часом.
+      unlocked: Розблокований обліковий запис користувача!
+      unpublished: публікації дописів скасовуються у фоновому режимі. Робота буде завершена найближчим часом.
+      updated: Користувача оновлено
+      updated_json: Успішно! %{username} оновлено.
+      credits_added: Кредити додані!
+      credits_removed: Кредити видалено.
+    welcome_controller:
+      thread_content: |
+        ---
+        title: Вітаємо з приєднанням до %{community} - частина 1
+        published: false
+        description: Розкажіть про себе!
+        tags: welcome
+        ---
+
+        Привіт! Ласкаво просимо до %{community}!
+
+        ![WELCOME](https://acegif.com/wp-content/uploads/2021/4fh5wi/welcome-5.gif)
+
+        Залиште коментар нижче, щоб представити себе спільноті!✌️

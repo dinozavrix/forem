@@ -1,0 +1,62 @@
+---
+ua:
+  views:
+    tags:
+      meta:
+        title: Теги
+        description: Теги для відстеження %{community}
+        og:
+          description: "%{community} - це круто!"
+      heading:
+        default: Популярні теги
+        search_results: Результат пошуку для %{q}
+      search:
+        aria_labels:
+          search_input: Пошуковий запит на теги
+          submit: Пошук тегів
+        placeholder: Пошук за тегом
+      edit:
+        meta:
+          title: Редагувати %{tag}
+        admin: "Адмін"
+        help: "Допомога"
+        view: "Подивитися"
+        form:
+          pretty_name:
+            label: Гарне ім'я
+            placeholder: Ім'я відображається у верхній частині сторінки тега.
+          bg_color_hex:
+            label: Колір тегу
+          short_summary:
+            label: Короткий опис
+            placeholder: Короткий огляд того, що це тег.
+          wiki_body_markdown:
+            label: Розмітка тіла Wiki
+            placeholder: Це розділ "Про сайт". Не соромтеся додавати FAQ, додаткові ресурси тощо.
+          rules_markdown:
+            label: Правила розмітки
+            placeholder: Необов'язково - Може використовуватися для челленджів, тобто. для керівництва за участю.
+          submit: Зберегти
+      follow: Підписатися
+      following_tags: Підписка на теги
+      moderator:
+        text_html: "через кому, пробіл необов'язковий. Приклад: %{code}"
+        code: 123
+        placeholder: "через кому, пробіл необов'язковий. Приклад: 1,2,3"
+      published:
+        one: 1 опублікований пост
+        other: "%{count} постів опубліковано"
+      sidebar:
+        about: 'про #%{tag}'
+        admin: Адмін
+        edit: Редагувати
+        guidelines: Правила
+        moderate: Модерація
+        mods: Модератор тега
+        new: Новий запис
+        older: 'старі пости #%{tag}'
+        published:
+          one: 1 опублікований пост
+          other: "%{count} постів опубліковано"
+        sponsor: "%{tag} спонсорується"
+      sponsor: "| спонсорується %{org} ❤️"

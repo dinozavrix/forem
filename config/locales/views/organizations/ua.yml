@@ -1,0 +1,32 @@
+---
+ua:
+  views:
+    organizations:
+      empty: 404 біо не знайдено
+      external:
+        icon: External link icon
+      follow: Підписатися
+      github:
+        icon: GitHub лого
+      joined:
+        icon: Приєднався
+        text_html: "Приєднався\_%{date}"
+      location:
+        icon: Розташування
+      logo: "%{org} зображення профілю"
+      size: Співробітники
+      sponsor:
+        text: "%{level} Спонсор спільноти ❤️"
+        level:
+          gold: Золотий
+          silver: Срібний
+          bronze: Бронзовий
+          tag: Тег
+          media: Медіа
+          devrel: Деврел
+      stack: Спеціалізація
+      story: Про нас
+      support: Писати сюди
+      team: Команда
+      twitter:
+        icon: Twitter лого

@@ -1,0 +1,44 @@
+---
+ua:
+  views:
+    liquids:
+      github:
+        view: Дивитися на GitHub
+      medium:
+        logo: Medium лого
+      poll:
+        show_results: Просто покажіть мені результати
+      reddit:
+        author: 'Автор: %{author}'
+        see: Дивитись весь пост
+      stackexchange:
+        answer:
+          text_html: "%{answer} на: %{title}"
+          answer: відповідь
+        answers: 'Відповіді: %{count}'
+        comments: 'Коментарі: %{count}'
+        open:
+          answer: Відкрити повну відповідь
+          article: Відкрити повну статтю
+          question: Відкрити повне питання
+      twitter:
+        view: Переглянути в Twitter
+      user_subscription:
+        confirm:
+          subtitle: Підтвердити підписку
+          button_text: Підтвердити підписку
+          cancel_text: Скасувати
+          text_html: "Ви поділіться своєю адресою електронної пошти %{email}, ім'ям користувача, ім'ям та URL-адресою профілю з %{username}. Як тільки ви це зробите, ви не зможете це скасувати."
+        logged_out: "Ви повинні спочатку увійти до сайту %{community}."
+        sign_in: Увійти
+        subscribe:
+          apple:
+            button: Підписатися
+            desc_html: "Привіт! Схоже, що при створенні облікового запису %{community} ви використовували Apple та приватну адресу електронної пошти. Якщо ви бажаєте підписатися, будь ласка, спочатку %{update} адресу електронної пошти."
+            update: оновити адресу електронної пошти у Налаштуваннях
+          button: Підписатися
+          desc_html: "Ви підписуєтеся за допомогою %{email} адреси електронної пошти, пов'язаної з вашим обліковим записом. Щоб використовувати іншу адресу електронної пошти, ви можете %{update}."
+          update: оновити адресу електронної пошти у Налаштуваннях
+      wikipedia:
+        logo: Wikipedia лого
+        view: Дивитися на Wikipedia

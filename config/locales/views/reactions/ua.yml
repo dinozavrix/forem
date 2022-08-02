@@ -1,0 +1,31 @@
+---
+ua:
+  views:
+    reactions:
+      category:
+        hands: Руки
+        like: Вподобайка
+        readinglist: Обране
+        thinking: Думає
+        thumbsup: Палець вгору
+        thumbsdown: Палець вниз
+        unicorn: Єдиноріг
+        vomit: Поскаржитись
+      summary:
+        count_html:
+          one: "%{count}%{start}\_реакція%{end}"
+          other: "%{count}%{start}\_реакцій%{end}"
+        title: Реакції
+      like:
+        title: Вподобайка
+        aria_label: Вподобайка
+        icon: Улюблена кнопка із серцем
+        text: Вподобайка
+      unicorn:
+        title: Єдиноріг
+        aria_label: Реакція з єдинорогом
+      readingList:
+        title: Зберегти
+        aria_label: Додати до обраного
+        icon: Кнопка зберегти
+        text: Зберегти
